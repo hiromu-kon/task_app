@@ -1,0 +1,95 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #FFDFDF;
+  padding: 10px 20px;
+}
+
+table td {
+  background-color: #F9EAEA;
+  padding: 10px 20px;
+}
+
+table th, table td {
+  border: solid 1px black;
+}
+
+.notice {
+  background-color: #CEF5D6;
+  padding: 5px;
+  width: 434px;
+  height: 40px;
+  border: solid 2px #5CD075;
+  text-align: center;
+  line-height:40px;
+}
+
+.alert {
+  background-color: #F5C5D1;
+  padding: 5px;
+  width: 434px;
+  height: 40px;
+  border: solid 2px #EC7592;
+  text-align: center;
+  line-height:40px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+header, footer {
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+  line-height:70px;
+  background-color: #C52F24;
+  color: white;
+}
+
+.container {
+  margin: 50px 15px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  width: 100%;
+  font-size: 15px;
+  padding: 5px;
+}
+
+textarea {
+  width: 350px;
+  height: 200px;
+  font-size: 15px;
+}
+
+input[type=submit] {
+    width: auto;
+}
+
+td {
+  text-align: center;
+}
